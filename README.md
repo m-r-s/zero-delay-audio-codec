@@ -16,14 +16,14 @@ The scope is somewhere between opus and raw PCM, so are the expected bit rates.
 ## Status
 Currently in conception phase:
 - Working implementation in GNU/Octave (done)
-- Tuning default parameters (*still* improvements)
+- Tuning default parameters (done)
 - Adding documentation (done for now, may add on demand)
-- Implementation in C (not started, planned this winter)
+- Implementation in C (not started)
 - Check out WAVPACK-stream or Opus if you are looking for a production-ready solution now
 
 
 ## Short description
-Each channel is processed independently, no joint coding is performed.
+Each channel is processed independently, no joint channel coding is performed.
 The input is assumed to be sampled with arbitrary precision.
 Arbitrary sample rates are supported.
 A very good compromise between bit rate and quality seems to be at 32 kHz.
